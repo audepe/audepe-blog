@@ -1,0 +1,4 @@
+baseURL = 'http://blog.audepe.cloud/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'hugo-coder'
