@@ -1,4 +1,25 @@
-baseURL = 'http://blog.audepe.cloud/'
+baseURL = 'http://audepe.cloud/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Audepe's Blog"
 theme = 'hugo-coder'
+enableEmoji = true
+
+[params]
+author = "Daniel Delgado"
+description = "Daniel Delgado's website"
+keywords = "blog,devops,personal"
+info = ["DevOps💡💻", "Systems Magician🔧🧙‍♂️"]
+colorScheme = "auto"
+avatarURL = "images/avatar.jpg"
+
+[menu]
+   [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/" 
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
