@@ -1,4 +1,4 @@
-baseURL = 'http://audepe.cloud/'
+baseURL = 'https://audepe.cloud/'
 languageCode = 'en-us'
 title = "Audepe's Blog"
 theme = 'hugo-coder'
